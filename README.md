@@ -1,39 +1,89 @@
-# 🧠 Tartışma Simülasyonu - Türkiye Siyaseti
+# 🧠 Türkiye Siyaseti Tartışma Simülasyonu
 
-Bu proje, Türkiye'deki siyasi tartışmaları simüle eden bir yapay zeka uygulamasıdır. CHP'li Ayşe, AKP'li Mehmet ve kararsız seçmen Miraç arasında geçen tartışmaları canlandırır.
+## 🌟 Proje Hakkında
 
-## 🚀 Kurulum
-
-1. Gerekli paketleri yükleyin:
-```bash
-pip install -r requirements.txt
-```
-
-2. Uygulamayı başlatın:
-```bash
-streamlit run app.py
-```
-
-## 🎮 Kullanım
-
-1. Sol menüden bir gündem konusu girin
-2. "Tartışmayı Başlat" butonuna tıklayın
-3. Tartışmanın akışını takip edin:
-   - Ayşe (CHP'li) ilk görüşünü belirtir
-   - Mehmet (AKP'li) yanıt verir
-   - Miraç (Hakem) soru sorar
-   - Ayşe ve Mehmet Miraç'ın sorusuna yanıt verir
-   - Miraç son değerlendirmesini yapar
+Bu proje, Türkiye'deki siyasi tartışmaları simüle eden yapay zeka destekli bir uygulamadır. İki farklı siyasi görüşü temsil eden karakterler (CHP'li Ayşe ve AKP'li Mehmet) ve bir kararsız seçmen (Miraç) arasında geçen tartışmaları canlandırır.
 
 ## 🛠️ Teknolojiler
 
 - Python 3.10+
 - Streamlit
 - Google Gemini API
-- YAML konfigürasyon
+- YAML/JSON
+- dotenv
 
-## 📝 Notlar
+## 🏠 Tartışma Ortamları
 
-- Her karakter kendi siyasi görüşüne ve kişiliğine uygun şekilde konuşur
-- Tartışmalar doğal ve yerel Türkçe ile yürütülür
-- Miraç, tartışmanın hakemi olarak hangi tarafın daha ikna edici olduğunu değerlendirir 
+Uygulama, farklı tartışma ortamları sunar:
+
+1. **Kahvehane**: Geleneksel Türk kahvehanesi ortamı
+2. **Sokak**: Günlük hayatın içinden tartışmalar
+3. **Sokak Röportajı**: Medya tarzı tartışmalar
+4. **Oy Kullanılan Okulun Önü**: Seçim günü atmosferi
+5. **Pazar / Market**: Günlük alışveriş ortamında tartışmalar
+
+## 👥 Karakterler
+
+### Ayşe (CHP'li)
+- Emekli öğretmen, 62 yaşında
+- Laiklik ve liyakat temelli argümanlar
+- Öğretici ve net bir konuşma tarzı
+
+### Mehmet (AKP'li)
+- 52 yaşında esnaf
+- Hizmet ve istikrar odaklı
+- Halk dilinde, örneklerle konuşma
+
+### Miraç (Kararsız Seçmen)
+- 29 yaşında iş analisti
+- Veriye dayalı değerlendirmeler
+- Analitik ve sorgulayıcı yaklaşım
+
+## 🚀 Kurulum
+
+1. Repoyu klonlayın:
+```bash
+git clone https://github.com/barancanercan/agent_simulationV2.git
+cd agent_simulationV2
+```
+
+2. Gerekli paketleri yükleyin:
+```bash
+pip install -r requirements.txt
+```
+
+3. `.env` dosyasını oluşturun:
+```
+GOOGLE_API_KEY=your_api_key_here
+```
+
+4. Uygulamayı çalıştırın:
+```bash
+streamlit run app.py
+```
+
+## 📝 Kullanım
+
+1. Sol menüden tartışma ortamını seçin
+2. Gündem konusunu girin
+3. "Tartışmayı Başlat" butonuna tıklayın
+4. Karakterlerin tartışmasını takip edin
+5. "Tarafsız Seçmen Yorumu" butonu ile Miraç'ın değerlendirmesini görün
+
+## 🤝 Katkıda Bulunma
+
+1. Fork'layın
+2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
+3. Değişikliklerinizi commit edin (`git commit -m 'feat: Add amazing feature'`)
+4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
+5. Pull Request oluşturun
+
+## 📄 Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
+
+## 📞 İletişim
+
+Barancan Ercan - [@barancanercan](https://github.com/barancanercan)
+
+Proje Linki: [https://github.com/barancanercan/agent_simulationV2](https://github.com/barancanercan/agent_simulationV2) 

@@ -84,6 +84,6 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 
 ## 📞 İletişim
 
-Barancan Ercan - [@barancanercan](https://github.com/barancanercan)
+Baran Can Ercan - [@barancanercan](https://github.com/barancanercan)
 
 Proje Linki: [https://github.com/barancanercan/agent_simulationV2](https://github.com/barancanercan/agent_simulationV2) 

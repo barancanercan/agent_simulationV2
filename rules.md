@@ -12,7 +12,7 @@ Sistem, Python + Streamlit kullanılarak geliştirilecek görsel arayüz üzerin
 
 ## 🛠️ Teknoloji ve Bileşenler
 
-- **Gemini API 2.0**: AIzaSyA9Rc_U_XfZl48371_YqKcfkt2ExrW4eJo
+- **Gemini API 2.0**
 - **Python 3.10+**
 - **Streamlit** (arayüz için)
 - JSON / YAML tabanlı ajan profilleri
